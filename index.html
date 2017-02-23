@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js">
+    </script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-route.js">
+    </script>
+  </head>
+
+  <body ng-app="myModule">
+    <nav>
+      <a href="#/cat">Cat</a>
+      <a href="#/dog">Dog</a>
+      <a href="#/ferret">Ferret</a>
+      <a href="#/walrus">Walrus</a>
+    </nav>
+
+    <ng-view></ng-view>
+
+    <div class="" ng-controller="inputControl">
+      <p>{{hello}}</p>
+    </div>
+
+    <script type="text/javascript" src="js/module.js"></script>
+    <script type="text/javascript" src="js/userinput.js"></script>
+    <script type="text/javascript" src="js/routing.js"></script>
+  </body>
+</html>
