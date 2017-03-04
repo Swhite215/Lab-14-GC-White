@@ -1,9 +1,9 @@
 var app = angular.module("myModule");
 
 app.controller("routeController", function() {
-  $scope.cat = "";
-  $scope.dog = "";
-  $scope.ferret = "";
-  $scope.walrus = "";
-  $scope.unknown = ""
+  $scope.cat = "Cat";
+  $scope.dog = "Dog";
+  $scope.ferret = "Ferret";
+  $scope.walrus = "Walrus";
+  $scope.unknown = "Unknown";
 });
